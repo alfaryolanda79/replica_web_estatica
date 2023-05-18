@@ -4,35 +4,328 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>P2 FemCoders</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext">    
 </head>
 <body>
     <header>
         <nav class="nav">
             <div class="logo">
-                <img class="img_logo" src="images/logo.svg" alt="logo">
+                <a href="#home"><img class="img_logo" src="images/logo.svg" alt="logo" id="logo"></a>
             </div>
             
             <ul class="nav_list">                
                 <li class="list">
-                    <a href="#">DESCRIPTION</a>
+                    <a href="#description">DESCRIPTION</a>
                 </li>
                 <li  class="list">
-                    <a href="#">FEATURES</a>
+                    <a href="#features">FEATURES</a>
                 </li>
                 <li  class="list">
-                    <a href="#">SCREENS</a>
+                    <a href="#screens">SCREENS</a>
                 </li>
-                <li  class="list">
-                    <a href="#">EXTRA</a>
+                <li  class="dropdown" for="dropdown">
+                    <select id="dropdown" name="dropdown">
+                        <option value="1">EXTRA</option>
+                        <option value="2">ARTICLE DETAILS</option>
+                        <option value="3">TERMS CONDITIONS</option> 
+                        <option value="4">PRIVACY POLICY</option>
+                    </select>
                 </li>
                 <li  class="list_download">
-                    <a href="https://factoriaf5.org/" target="_blank">DOWNLOAD</a>
+                    <a class="btn" href="https://factoriaf5.org/" target="_blank">DOWNLOAD</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <section class="image_diamond" id="home">
+        <img class="green_diamond" src="images/decorative-green-diamond.svg" alt="green diamond">
+    </section>
+    <section class="img_yellow_circle">
+        <img class="yellow_circle" src="images/decorative-yellow-circle.svg" alt="yellow circle">
+    </section>
+    <section class="title">
+        <h1>Mobile App Landing Page</h1>
+        <p>Start focusing on your goals and get more things done with Sync mobile aplication. It's the firt app to harness the power of social connections to help you stay focused and get organized</p>
+    </section>
+    <section class="button_download">
+        <button class="red_button">
+            <img class="img_button" src="images/Apple Logo (1).png" alt="apple store">
+            <a class="text_button" href="https://factoriaf5.org/" target="_blank">DOWNLOAD</a> 
+        </button>
+        <button class="red_button">
+            <img class="img_button" src="images/Google Play.png" alt="google play">           
+            <a class="text_button" href="https://factoriaf5.org/" target="_blank">DOWNLOAD</a> 
+        </button>
+    </section>
+    <section class="blue_circle">
+        <img class="img_blue_circle" src="images/decorative-blue-circle.svg" alt="blue circle">
+    </section>
+    <section class="mobile">
+        <img class="img_mobile" src="images/header-iphone.png" alt="mobile">
+    </section>
+    <section class="icon">
+        <div class="background_color_identify">
+            <img class="img_icon" src="images/people_circ.png" alt="identify goals">
+        </div>
+        <div class="text_identify">
+            <p class="text_icon">
+                Identify Goals
+            </p>
+        </div>
+        <div class="background_color_situation">
+            <img class="img_icon" src="images/less than_circ.png" alt="identify goals">            
+        </div>
+        <div class="text_situation">
+            <p class="text_icon">
+                Situation Analysis
+            </p>
+        </div>
+        <div class="background_color_tasks">
+            <img class="img_icon" src="images/ajustes_circ.png" alt="tasks settings">            
+        </div>
+        <div class="text_tasks">
+            <p class="text_icon">
+                Tasks Settings
+            </p>
+        </div>
+        <div class="background_color_social">
+            <img class="img_icon" src="images/comentarios_circ.png" alt="social interaction">            
+        </div>
+        <div class="text_social">
+            <p class="text_icon">
+                Social Interaction
+            </p>
+        </div>
+        <div class="background_color_get_things">
+            <img class="img_icon" src="images/cohete_circ.png" alt="get thing done">            
+        </div>
+        <div class="text_get_things">
+            <p class="text_icon">
+                Get Things Done
+            </p>
+        </div>             
+    </section>
+    <section id="description" class="description">
+        <section class="first_description">
+            <img class="img_sync_app" src="images/description-1-app.png" alt="Sync App">
+            <h2>Organize Your Time And Start Getting Results</h2>
+            <div>
+                <p>Sync is the first mobile app on the market to harness the power of social connections to help you stop procastinating and star getting things done. Give it a try and see the changes right away.</p>
+                <ul>
+                    <li>Analyse and evaluate your current status and productivity</li>
+                    <li>Begin monitoring your day to day routine with Sync app</li>
+                    <li>See the improved results in no more than a couple of weeks</li>
+                </ul>                
+            </div>
+            <button class="red_button">
+                <a class="text_button" href="#">LIGHTBOX</a>
+            </button>
+    </section>
+    <section class="second_description">
+            <div>
+                <div>
+                    <img class="icon_description" src="images/Clock.png" alt="clock">
+                    <p class="background_schedule size">Schedule</p>
+                </div>
+                <div>
+                    <img class="icon_description" src="images/ic_outline-list.png" alt="list">
+                    <p class="background_white size">Tracking</p>
+                </div>
+                <div>
+                    <img class="icon_description" src="images/material-symbols_calendar-month-outline-sharp.png" alt="schedule">
+                    <p class="background_white size">Organize</p>
+                </div>
+                <div>
+                    <p>
+                        <strong>Schedule tasks</strong> to keep track of their completion. Sync provides multiple scheduling options includig alarms and reminders.
+                    </p>
+                    <div>
+                        <img class="icon_tick" src="images/square-check.png" alt="tick">
+                        <p>You can always add new tasks or change the settings of existing ones in your calendar view or the app control panel</p>
+                    </div>
+                    <div>
+                        <img class="icon_tick" src="images/square-check.png" alt="tick">
+                        <p>It's easy to stay focused on your most important daily activities that will get you closer to meeting your goals</p>
+                    </div>
+                    <div>
+                        <img class="icon_tick" src="images/square-check.png" alt="tick">
+                        <p>Use phone reminders to free up your long term memory which will reduce stress and make you more productive</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="red_button">
+                        <a class="text_button" href="#">TERMS</a>
+                    </button>
+                    <button class="privacy_button">
+                        <a href="#">PRIVACY</a>
+                    </button>
+                </div>
+                <div>
+                    <img class="img_second_description" src="images/description-2-app.png" alt="calendar">
+                </div>
+            </div>               
+        </section>
+        <section>
+            <h2>Special Features</h2>
+            <div class="background_color_arrow">
+                <a href="#home"><img class="img_arrow" src="images/up-arrow.png" alt="up arrow"></a>
+            </div>
+        </section>
+    </section>
+    <section id="screens" class="screens">
+        <section class="user_testimonials">
+            <div>
+                <h2>User testimonials</h2>
+            </div>
+            <div class="user">
+                 <img class="star" src="images/five stars.png" alt="estrella">
+                 <hr class="line"></hr>
+                 <p class="p_italic">I love using Sync form my personal development needs. It meets all my requirements and it actually helps a lot with focusing skills</p>
+                 <p><strong>Rick Jones - Designer</strong></p>
+            </div>
+            <div class="user">
+                <img class="star" src="images/five stars.png" alt="estrella">
+                <hr class="line"></hr>
+                <p class="p_italic">After trying out a large number of personal coaching apps I decided  to give Sync a try and what a wonderful surprise it was.</p>
+                <p><strong>Lynda Marquez - Developer</strong></p>
+            </div>                             
+            <div class="user">
+                <img class="star" src="images/five stars.png" alt="estrella">
+                <hr class="line"></hr>
+                <p class="p_italic">Never dreamed I could learn so fast how to focus on my personal goals and improve my life to levels thought posible.</p>
+                <p><strong>Jay Frisco - Marketer</strong></p>
+            </div>
+            <div class="banner">
+                <img class="img_banner" src="images/customer-logo-1.png" alt="logo">
+                <img class="img_banner" src="images/customer-logo-2.png" alt="logo">
+                <img class="img_banner" src="images/customer-logo-3.png" alt="logo">
+                <img class="img_banner" src="images/customer-logo-4.png" alt="logo">
+                <img class="img_banner" src="images/customer-logo-5.png" alt="logo">
+            </div>
+            <div class="user">
+                <img class="star" src="images/five stars.png" alt="estrella">
+                <hr class="line"></hr>
+                <p class="p_italic">I got so much value from using Sync in my daily life for which i am very grateful and would recommend it to everybody</p>
+                <p><strong>Frank Gibson - Manager</strong></p>
+           </div>
+           <div class="user">
+               <img class="star" src="images/five stars.png" alt="estrella">
+               <hr class="line"></hr>
+               <p class="p_italic">If you have goals but configure out a way to keep focused then you should definitely give Sync a try and see the results.</p>
+               <p><strong>Rita Longmile - Designer</strong></p>
+           </div>                             
+           <div class="user">
+               <img class="star" src="images/five stars.png" alt="estrella">
+               <hr class="line"></hr>
+               <p class="p_italic">I've been looking for a great organizar app for such a long time but now I am really happy that I found Sync. It's been working great.</p>
+               <p><strong>Jones Smith - Developer</strong></p>
+           </div>
+        </section>
+        <section class="app_numbers">
+            <div class="icon_screens">
+                <img class="img_iconscreen" src="images/People.png" alt="icon">
+                <p><strong>231</strong></p>
+                <p>Happy Users</p>
+            </div>
+            <div class="icon_screens">
+                <img class="img_iconscreen" src="images/Less than.png" alt="icon">
+                <p><strong>385</strong></p>
+                <p>Issues Solved</p>
+            </div>
+            <div class="icon_screens">
+                <img class="img_iconscreen" src="images/Settings.png" alt="icon">
+                <p><strong>159</strong></p>
+                <p>Good Reviews</p>
+            </div>
+            <div class="icon_screens">
+                <img class="img_iconscreen" src="images/icon_communication.png" alt="icon">
+                <p><strong>127</strong></p>
+                <p>Case Studies</p>
+            </div>
+            <div class="icon_screens">
+                <img class="img_iconscreen" src="images/cohete.jpg" alt="icon">
+                <p><strong>211</strong></p>
+                <p>Order Recieved</p>
+            </div>
+        </section>
+        <section class="mobile_screens">
+            <div class="img_diamond_screens">
+                <img class="green_diamond_screens" src="imagenes comprimidas/decorative-green-diamond.svg" alt="green diamond">
+            </div>
+            <div class="blue_circle_screens">
+                <img class="img_blue_circle_screens" src="imagenes comprimidas/decorative-blue-circle.svg" alt="blue circle">
+            </div>
+            <div class="mobile_screens">
+                <img class="img_mobile_screens" src="" alt="mobile">
+            </div>
+            <div class="img_yellow_circle_screens">
+                <img class="yellow_circle_screens" src="imagenes comprimidas/decorative-yellow-circle.svg" alt="yellow_circle">
+            </div>
+            <div>
+                <p>Do you feel like you're wasting time with small stuff instead of working towards your goals? Start using Sync to organize your time and get a grip on your personal development</p>
+            </div>
+            <div class="button_download">
+                <button class="red_button">
+                    <img class="img_button" src="images/Apple Logo (1).png" alt="apple store">
+                    <a class="text_button" href="https://factoriaf5.org/" target="_blank">DOWNLOAD</a>
+                </button>
+                <button class="red_button">
+                    <img class="img_button" src="images/Google Play.png" alt="google play">
+                    <a class="text_button" href="https://factoriaf5.org/" target="_blank">DOWNLOAD</a>
+                </button>
+            </div>
+        </section>
+        <footer>
+            <hr></hr>
+            <div class="contact_info">
+                <p><strong>Contac Info</strong></p>
+                <div>
+                    <img class="location" src="images/Vector.png" alt="location">
+                    <p>22 Innovation Street, CA, US</p>
+                </div>
+                <div>
+                    <img class="email" src="images/Mail.png" alt="email">
+                    <p>office@syncmobile.com</p>
+                </div>
+                <div>
+                    <img class="phone" src="images/Phone.png" alt="phone">
+                    <p>+44 376 945 23</p>
+                </div>
+            </div>
+            <div class="value_links">
+                <p><strong>Value Links</strong></p>
+                <div>
+                    <p>Terms & Conditions</p>
+                </div>
+                <div>
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <p>Article Details</p>
+                </div>
+            </div>
+            <div class="other_apps">
+                <p><strong>Other Apps</strong></p>
+                <div>
+                    <p>Scientific Calculator</p>
+                </div>
+                <div>
+                    <p>Advanced Timer</p>
+                </div>
+                <div>
+                    <p>Music Store</p>
+                </div>
+            </div>
+            <div class="contact_icons">
+                <img src="images/facebook.png" alt="facebook">
+                <img src="images/Twiter.png" alt="twitter">
+                <img src="images/Pinterest.png" alt="pinterest">
+                <img src="images/instagram.png" alt="instagram">                
+            </div>
+            <p class="copyright">Copyright © 2020 Inovatik - All rights reserved</p>
+        </footer>
+    </section>
 </body>
 </html>
